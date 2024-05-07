@@ -1,0 +1,6 @@
+e=input()
+eng=set(map(int, input().split()))
+f=input()
+fre=set(map(int, input().split()))
+result=set(map(int, eng.union(fre)))
+print(len(result))
